@@ -1,0 +1,7 @@
+import webbrowser
+cypher_str = 'NonStopCrypto,RiiixEth,Bigcheeeeeese,SpikeCGaming,jvysupreme23,MonkeyFPVeth,Nft_raavan,LuxyLux8,NFTAlphaBeta,Diceybaby100,defimancer,JonzzyTV,imt9999,music_nfts,Toby_arts,sarankong,NFTKing_,AutoVentureGr,allaafaham,seibs_52,Madmax_221,CryptosDiCaprio,Ernestnovakhov,AirdropAcademy1,TheSparrowsJour,Nanophant11,0xH_Chiau,athiezcoin,TopShotGr,hot_messmellow,tychonshehryar,metadise,microglia_8888,lejendaryg,dotworkbydavid,omegaorcs.com,MissMoeppi,ohdearloti,UsmaNoah,fearsam,MetaTreeHugs,Folon32,raulcabra,ShinboSlice,joshuapagila,FlashNTC,Adambak22324050,xjoebaba,Ysfromwest,SwervorTrades,shafieesobhan,ohhpokes,kkadav,cryptokhan333,PlugLazy,Nair8Arvin,dt_smat,macroreach,100jat,Mingoec,Marvel_Chapman,dedothenft,hussamhj4,KyeMoana,niyashg,eigyef,billtiyu,Spencerjiwani,Mitchllh2727,NoCapNetro,hosman_fl,Itsjusta666,felixarc23,AFCBwoodzie,MrWildz,Im_Freshy,SpendSirWhen,mint_boar,adamkhan97,Mpa3uJla,JimmyG0322,maxfrisse,RikyCantori,Br0ka_,ricky_recall,MatNFT1,SaeedSo8,Acblur,Slake__TV,oodleKidsNFT,DonMetaverse,KingOdin34,yurakokhan,rainyNFT,NFTokenowski,firstphasemedia,Anton76744036,cammadeit1,nkovacich01,Exile2DamnEarth'
+cypher_list = cypher_str.split(',')
+for i in range(0,10):
+    url = f'https://www.twitter.com/{cypher_list[i]}'
+    print(url)
+    webbrowser.open(url)
